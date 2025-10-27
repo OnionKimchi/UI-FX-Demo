@@ -12,6 +12,8 @@ UI 기반의 경량 구조로 실무 환경에 적합한 퍼포먼스를 보장�
 
 [![UI FX Demo Thumbnail](./Assets/ScreenShots/thumbnail.png)](https://drive.google.com/file/d/1TbSaKxb2HxSB6VwKBgHumERa_JOw8CYo/view?usp=sharing)
 
+***위의 이미지를 클릭하면 간단한 시연 영상이 재생됩니다***
+
 ---
 
 ## 📜 요청 조건 요약
