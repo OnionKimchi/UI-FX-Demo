@@ -56,7 +56,7 @@ UI 기반의 경량 구조로 실무 환경에 적합한 퍼포먼스를 보장�
 
 ### 3️⃣ **DOTween 활용**
 
-<pre> ```csharp
+```csharp
 /*
  * UIStarFXManager.cs (Simplified Version)
  * ------------------------------------------------------------
@@ -181,7 +181,7 @@ public class UIStarFXManager : MonoBehaviour
     }
 }
 
-```</pre>
+```
 - `UIStarFXManager` 내에서 DOTween Sequence를 사용하여  
   **별의 상승 → 낙하 → 회전 → 페이드 아웃** 과정을 트윈 애니메이션으로 구성했습니다.  
 - `Ease.OutQuad`, `Ease.InQuad` 이징 조합으로 물리적으로 자연스러운 중력감을 표현했고,  
@@ -190,6 +190,8 @@ public class UIStarFXManager : MonoBehaviour
 ---
 
 ### 4️⃣ **이펙트 구현 및 최적화**
+
+![StarInsfector](./Assets/ScreenShots/star_insfector.png)
 - 실제 별 오브젝트를 UI 상에서 스크린 좌표 변환을 거쳐 발사하는 방식으로 구현했습니다.  
   (RectTransformUtility.WorldToScreenPoint → LocalPoint 변환)  
 - 별 오브젝트들은 **오브젝트 풀(List<RectTransform>)** 로 관리되어,  
