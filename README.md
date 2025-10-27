@@ -46,7 +46,7 @@ UI 기반의 경량 구조로 실무 환경에 적합한 퍼포먼스를 보장�
 ---
 
 ### 2️⃣ **Animator 사용 명확화**
-[![Animator](./Assets/ScreenShots/animator.png)]
+[![Animator](./Assets/ScreenShots/animator.png)
 - `StarStateAnimationControll` 스크립트에서 Animator의 트리거(`SetOn`, `SetOff`, `SetTwinkle`)를 호출하여  
   **UI 요소의 상태 전이(State Transition)** 를 구현했습니다.  
 - 코드를 통해 직접 애니메이션 타이밍을 조정하지 않고,  
